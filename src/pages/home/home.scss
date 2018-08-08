@@ -1,0 +1,40 @@
+page-home {
+    .background{
+        // background-color: rgba(12, 90, 126, 0.733);
+    }
+ion-title{    
+text-align: center;
+text-shadow: 2px 4px 4px cyan;
+font-weight: bold;
+}
+img{
+    text-align: center;
+    box-shadow: 2px 2px 4px black;
+    border: 12px;
+    border-radius: 40%;
+    height: 100px;
+    
+}
+.pic{
+    background-attachment: fixed;
+    background-image: url('../../assets/a0744b97665fa1a666ea1eae3b260fd2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+.item{
+    opacity: 0.90;
+    color: white;
+    background: rgba(7, 94, 128, 0.685)
+}
+.image{
+    height: 50px;
+    width: 100px;
+}
+.date{
+    color: black;
+}
+
+
+}

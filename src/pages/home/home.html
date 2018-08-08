@@ -1,0 +1,41 @@
+<ion-content class="background" >
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Meet Live News
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+  <br>
+
+
+    <!-- <img src="../../assets/f7472e601d4f32131d0a3fae5e5c3cc3.jpg" > -->
+
+<ion-content class="pic">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+    <img src="../../assets/10b9e29b1400a3c9c61a05ebf32f4517.jpg" height="100px" width="100px">
+ 
+</ion-content>
+
+  
+    <ion-list>
+        <ion-item  *ngFor="let y of arr; let i = index">
+          <ion-thumbnail item-start>
+            <img src="{{y.urlToImage}}">
+          </ion-thumbnail>
+          <h2>{{y.description}}</h2>
+          <p class="date">{{y.author}} • {{y.publishedAt}}</p>
+          <a ion-button small color = "dark" item-end [href]="y.url">View</a>
+        </ion-item>
+      </ion-list>
+
+</ion-content>
